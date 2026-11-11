@@ -1,0 +1,29 @@
+{
+  "subject_id": "avatar_alignment-synthetic",
+  "request_key": "avatar_alignment-demo",
+  "payload": {
+    "doctor_id": "d-1",
+    "baseline": 70,
+    "drift_threshold": 5,
+    "samples": [
+      {
+        "score": 80,
+        "shown": true,
+        "accepted": true,
+        "modified": false,
+        "cohort": "sleep",
+        "original": "复核",
+        "edited": "医生复核"
+      },
+      {
+        "score": 65,
+        "shown": true,
+        "accepted": false,
+        "modified": true,
+        "cohort": "sleep",
+        "original": "建议",
+        "edited": "建议复诊"
+      }
+    ]
+  }
+}
